@@ -47,7 +47,7 @@
 #elif defined(GLCD_DEVICE_STM32F4XX)
 	#include "stm32f4xx.h"
 	#include "devices/STM32F4.h"
-#elif defined(GLCD_DEVICE_PIC24H)
+#elif defined(GLCD_DEVICE_PIC24H)||(GLCD_DEVICE_DSPIC33)
 	#include <stdint.h>
 	#include <xc.h>
 	#include <libpic30.h>
